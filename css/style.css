@@ -7,7 +7,7 @@ body {
     color: #434455;
 }
 :root {
-
+    
 }
 a {
     text-decoration: none;
@@ -51,7 +51,7 @@ p {
 footer {
     background-color: #2E2F42;
 }
-.first-logo-word-link {
+.first-logo-word {
     color:#4D5AE5;
     font-size: 18px;
     font-family: Raleway, sans-serif;
@@ -61,7 +61,7 @@ footer {
     text-transform: uppercase;
     text-decoration: none
 }
-.second-logo-word-link {
+.second-logo-word {
     color: #2E2F42;
     font-size: 18px;
     font-family: Raleway, sans-serif;
@@ -102,7 +102,7 @@ footer {
     font-size: 16px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
 }
@@ -143,6 +143,18 @@ footer {
     letter-spacing: 0.02em;
     font-size: 16px;
 }
-.footer-info{
-
+.order-button-portfolio {
+    color:  #4d5ae5;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+}
+.order-button-portfolio:hover,
+.order-button-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
